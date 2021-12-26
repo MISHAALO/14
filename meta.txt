@@ -1,0 +1,9 @@
+#cloud-config
+users:
+  - name: mbagdasaryan
+    groups: sudo
+    shell: /bin/bash
+    sudo: ['ALL=(ALL) NOPASSWD:ALL']
+    ssh-authorized-keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCtBZGUx5fLn3qhhPW/oM9Ja6+ouJjMcMdPSP7drKKkKGfW56GNDcU5BDI4R5lZDOIS+y1qwI6llsYgAmW5lmWDWhKo6nDeDUtFVJH+TUJdrnlngALt/Zr405kAnc1l7NzoUOHDXmaVc7ElEGFLFuYKPha2W4IFyoE/1g0Dnp+2QuYwYzDsOiiIsXn0gpmpZWTExM56oODE9Yy7xD35wxG3BZm4cw8iRWcnCE+VGl1gXTUSZIHogNmpWrjCzEzeGVWyLk0tyOvoS7LVc5HRsI934VUH9ftBNZyIhcAgslfmZFs1+PLofFkjPNgB+U+w135V4mcy260wAXEjjt8v6QFoKpluqNSxBi2HShP+AvSLpL7Fq1F7QjoS2SyPQ4DZRjw+BtVOe6imR14KNhe9CCFlpmlNiiLfy62EJS/wiYq4C2FYuXyjSwqI+oR4heFqfv7SqaV8iyDE7FDp2hCzT5wmpO3MM9igFZoKx62/UpHgL0/uTvoLCl30Cug6s1M6DA0= mbagdasaryan@bro 
+
