@@ -141,10 +141,8 @@ resource "yandex_compute_instance" "prod" {
       host     = self.network_interface.0.nat_ip_address
     }
   }
-  depends_on = [
-    yandex_compute_instance.build,
-  ]
-}
+
+}ssh
 
 resource "yandex_vpc_network" "network-1" {
   name = "network1"
